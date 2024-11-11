@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shiv Shakti Gurukul - Expert Coaching for JEE, NEET, and Competitive Exams">
+    <title>Shiv Shakti Gurukul</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="task1/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+    <header>
+        <div class="burger-menu" id="burger-menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="logo">
+            <img src="task1/images/logo.webp" alt="Shiv Shakti Gurukul Logo">
+            <h1>Shiv Shakti Gurukul</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="mobile-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="close-menu" id="close-menu" onclick="toggleMenu()">×</div>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+        <div>
+            <h1>Welcome to Shiv Shakti Gurukul !!</h1>
+            <p>A place of divine learning and growth, where ancient wisdom meets modern teachings. At Shiv Shakti
+                Gurukul, we nurture minds, strengthen spirits, and empower students to excel in JEE, NEET, and other
+                competitive exams. Join us on a transformative journey towards academic excellence, self-realization,
+                and inner peace.</p>
+            <div class="scroll">
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="task1/images/about us.webp" alt="About Us">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        We are a dynamic team dedicated to providing top-notch services and innovative solutions.
+                        Our expertise spans various industries, and we strive to deliver excellence in everything
+                        we do. Join us on our journey as we continue to set new standards.
+                    </p>
+                    <a href="#"><button class="learn-more-btn">Learn More</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Courses Section -->
+
+    <section class="courses-section">
+        <div class="courses-header">
+            <h2>Our Courses</h2>
+            <p>Explore our wide range of courses tailored to help you excel in JEE, NEET, and other competitive exams.
+            </p>
+        </div>
+        <div class="courses-container">
+            <div class="course-card">
+                <div class="course-image" style="background-image: url('task1/images/jee.webp');"></div>
+                <div class="course-content">
+                    <h3>JEE Advanced Preparation</h3>
+                    <p>In-depth JEE Advanced training with expert guidance and modern teaching techniques.</p>
+                    <a href="#" class="btn-enroll">Enroll Now</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-image" style="background-image: url('task1/images/neet.webp');"></div>
+                <div class="course-content">
+                    <h3>NEET Comprehensive Course</h3>
+                    <p>Complete NEET preparation with a structured syllabus and top-notch material.</p>
+                    <a href="#" class="btn-enroll">Enroll Now</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-image" style="background-image: url('task1/images/Foundation.webp');"></div>
+                <div class="course-content">
+                    <h3>Foundation Course</h3>
+                    <p>Build a strong foundation in Science and Mathematics for early competitive success.</p>
+                    <a href="#" class="btn-enroll">Enroll Now</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-image" style="background-image: url('task1/images/bootcamp.webp');"></div>
+                <div class="course-content">
+                    <h3>Online Coding Bootcamp</h3>
+                    <p>Learn programming languages like Python, Java, and C++ in an intensive online bootcamp.</p>
+                    <a href="#" class="btn-enroll">Enroll Now</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-image" style="background-image: url('task1/images/AI.webp');"></div>
+                <div class="course-content">
+                    <h3>Data Science & AI Course</h3>
+                    <p>Master the concepts of Data Science and AI with hands-on projects and real-world applications.
+                    </p>
+                    <a href="#" class="btn-enroll">Enroll Now</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-image" style="background-image: url('task1/images/Cloud.webp');"></div>
+                <div class="course-content">
+                    <h3>Cloud Computing Bootcamp</h3>
+                    <p>Learn how to deploy and manage cloud-based applications and infrastructures with top industry
+                        tools.</p>
+                    <a href="#" class="btn-enroll">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form onsubmit="return showCustomPopup()">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    
+        <!-- Popup message -->
+        <div id="popupMessage" class="popup">
+            <p>Your message has been sent!</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </section>
+    
+    
+
+    <!-- Footer Section -->
+
+    <footer>
+        <div class="social-media">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Shiv Shakti Gurukul. All Rights Reserved.</p>
+    </footer>
+
+</body>
+<script src="task1/js/script.js"></script>
+
+</html>
